@@ -1,9 +1,8 @@
-.bounding-box {
-  background-image: url(...);
-  background-size: contain;
-  position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+.grid-box {
+	float:left;
+}
+
+img {
+    width: 100%;
+    display: block;
 }

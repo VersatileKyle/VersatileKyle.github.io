@@ -34,6 +34,18 @@ section h1 {
   text-align: center;
   white-space: nowrap;
 }
+section h2 {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 40px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+}
 
 #section01 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-professional.jpg) center center / cover no-repeat;}
 #section02 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-deadpan.jpg) center center / cover no-repeat;}

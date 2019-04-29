@@ -36,10 +36,9 @@ section h1 {
 }
 
 
-#section01 { background: url(wallpaper.JPG) center center / cover no-repeat;
-background-size:90%;}
+#section01 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-Younger-Me.jpg) center center / cover no-repeat;}
 #section02 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-professional.jpg) center center / cover no-repeat;}
-#section03 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-Younger-Me.jpg) center center / cover no-repeat;}
+#section03 { background: url() center center / cover no-repeat;}
 #section04 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-choice.jpg) center center / cover no-repeat;}
 #section05 { background: url(https://picsum.photos/1200/800?image=1037) center center / cover no-repeat;}
 #section06 { background: url(https://picsum.photos/1200/800?image=901) center center / cover no-repeat;}

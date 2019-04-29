@@ -24,15 +24,15 @@ section::after {
 }
 section h1 {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
-  font : normal 300 64px/1 'Josefin Sans', sans-serif;
+  font : normal 300 40px/1 'Josefin Sans', sans-serif;
   text-align: center;
-  white-space: nowrap;
+  white-space: wrap;
 }
 
 
@@ -97,14 +97,7 @@ section h1 {
 #section01 a {
   padding-top: 60px;
 }
-
-
-
-
-#section02 a {
-  padding-top: 60px;
-}
-#section02 a span {
+#section01 a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -115,7 +108,7 @@ section h1 {
   border-radius: 100%;
   box-sizing: border-box;
 }
-#section02 a span::after {
+#section01 a span::after {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -131,60 +124,3 @@ section h1 {
 }
 
 
-#section03 a {
-  padding-top: 60px;
-}
-#section03 a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  box-sizing: border-box;
-}
-#section03 a span::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}
-
-#section04 a {
-  padding-top: 60px;
-}
-#section04 a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  box-sizing: border-box;
-}
-#section04 a span::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}

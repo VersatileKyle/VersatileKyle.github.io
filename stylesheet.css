@@ -35,10 +35,10 @@ section h1 {
   white-space: nowrap;
 }
 
-#section01 { background: url(https://picsum.photos/1200/800?image=575) center center / cover no-repeat;}
-#section02 { background: url(https://picsum.photos/1200/800?image=1016) center center / cover no-repeat;}
-#section03 { background: url(https://picsum.photos/1200/800?image=869) center center / cover no-repeat;}
-#section04 { background: url(https://picsum.photos/1200/800?image=506) center center / cover no-repeat;}
+#section01 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-professional.jpg) center center / cover no-repeat;}
+#section02 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-deadpan.jpg) center center / cover no-repeat;}
+#section03 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-Younger-Me.jpg) center center / cover no-repeat;}
+#section04 { background: url(http://kyleastewart.me/Photography/Portrait-Project/pics/Photo-choice.jpg) center center / cover no-repeat;}
 #section05 { background: url(https://picsum.photos/1200/800?image=1037) center center / cover no-repeat;}
 #section06 { background: url(https://picsum.photos/1200/800?image=901) center center / cover no-repeat;}
 #section07 { background: url(https://picsum.photos/1200/800?image=675) center center / cover no-repeat;}
@@ -188,4 +188,31 @@ section h1 {
   box-sizing: border-box;
 }
 
-
+#section04 a {
+  padding-top: 60px;
+}
+#section04 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#section04 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}

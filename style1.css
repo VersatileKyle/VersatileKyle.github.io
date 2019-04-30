@@ -4,3 +4,7 @@
   height: 300px;
   width: 300px;
 }
+
+body {
+  background-image: radial-gradient(white 0%, transparent 10%, grey 100%);
+} 
